@@ -1,0 +1,42 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.container{
+    border: solid black;
+    border-width: 10px;
+    border-radius: 20px;
+    background-color: lavender;
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    /* margin-top: 0px; */
+    
+
+}
+
+ .box{
+    width:  100px;
+    height: 100px;
+   
+ }
+
+  #badabox{
+    flex: 3;
+    background-color: aqua;
+}
+  #ab {
+    flex: 4;
+    background-color: rgb(226, 15, 138);
+ }
+  #box3 {
+    background-color: rgb(16, 99, 233);
+ }
+  #box4 {
+    background-color: crimson;
+ }
